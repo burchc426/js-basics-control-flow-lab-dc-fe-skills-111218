@@ -17,7 +17,7 @@ return (someCity = "NYC" ? (response = "Ok, sounds good.") : (response = "No go.
 }
 
 function switchOnCharmFromTip(){
-  let response;
+const  response;
   switch(tip) {
     case ("not as generous"):
       response ="Thank you.";
