@@ -28,4 +28,5 @@ let response
     case ("thanks for everything"): 
       response ="Bye.";
   }
+  return response;
 }
